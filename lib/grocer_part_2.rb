@@ -53,4 +53,5 @@ def checkout(cart, coupons)
     product=item[:price] * item[:count]
     sum=product + sum
   end
+  sum
 end
