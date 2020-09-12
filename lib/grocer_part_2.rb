@@ -44,6 +44,9 @@ def apply_clearance(cart)
   # REMEMBER: This method **should** update cart
 end
 
+
+
+
 def checkout(cart, coupons)
   newcart=consolidate_cart(cart)
   apply_coupons(newcart, coupons)
@@ -54,11 +57,9 @@ def checkout(cart, coupons)
     sum=product + sum
     sum=sum.round(2)
   end
-  binding.pry
   if sum > 100
     discount=sum * 0.10
     sum=sum-discount
   end
   sum
-  binding.pry
 end
