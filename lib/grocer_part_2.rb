@@ -44,10 +44,10 @@ def apply_clearance(cart)
   # REMEMBER: This method **should** update cart
 end
 
-def checkout(cart, coupons)
+
   newcart=consolidate_cart(cart)
-  binding.pry
   apply_coupons(newcart, coupons)
+  binding.pry
   apply_clearance(newcart)
   # Consult README for inputs and outputs
   #
