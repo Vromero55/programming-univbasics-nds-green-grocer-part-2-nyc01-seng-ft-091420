@@ -45,10 +45,11 @@ def apply_clearance(cart)
 end
 
 def checkout(cart, coupons)
-  binding.pry
-  newcart=consolidate_cart(cart)
-  apply_coupons(newcart, coupons)
-  apply_clearance(newcart)
+  consolidate_cart(cart)
+  apply_coupons(cart, coupons)
+  apply_clearance(cart)
+  cart.each do |item|
+    
   # Consult README for inputs and outputs
   #
   # This method should call
