@@ -51,7 +51,7 @@ def checkout(cart, coupons)
   binding.pry
   cart.each do |item|
     binding.pry
-  
+
   # Consult README for inputs and outputs
   #
   # This method should call
