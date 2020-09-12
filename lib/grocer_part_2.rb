@@ -48,7 +48,7 @@ end
 
   newcart=consolidate_cart(cart)
   apply_coupons(newcart, coupons)
-  binding.pry
+  
   apply_clearance(newcart)
   # Consult README for inputs and outputs
   #
