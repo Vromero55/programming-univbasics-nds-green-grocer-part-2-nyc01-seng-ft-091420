@@ -50,7 +50,7 @@ def checkout(cart, coupons)
   apply_clearance(cart)
   binding.pry
   cart.each do |item|
-    binding.pry
+
 
   # Consult README for inputs and outputs
   #
