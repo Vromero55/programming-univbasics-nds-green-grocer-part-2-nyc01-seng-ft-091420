@@ -48,8 +48,9 @@ def checkout(cart, coupons)
   consolidate_cart(cart)
   apply_coupons(cart, coupons)
   apply_clearance(cart)
-  binding.pry
+
   cart.each do |item|
+    product=item[:price] * item[:count]
 
 
   # Consult README for inputs and outputs
@@ -63,3 +64,12 @@ def checkout(cart, coupons)
   # some irritated customers
 end
 end
+cartt=[{:item=>"BEETS", :price=>2.5, :clearance=>true, :count=>1},
+  {:item=>"BEETS", :price=>2.5, :clearance=>true, :count=>1},
+  {:item=>"veg", :price=>5.5, :clearance=>true, :count=>1},
+  {:item=>"veg", :price=>5.5, :clearance=>true, :count=>1},
+  {:item=>"carrot", :price=>7.5, :clearance=>true, :count=>1},
+  {:item=>"onion", :price=>11.5, :clearance=>false, :count=>1},
+  {:item=>"onion", :price=>11.5, :clearance=>false, :count=>1},
+  {:item=>"onion", :price=>11.5, :clearance=>false, :count=>1},
+  {:item=>"onion", :price=>11.5, :clearance=>false, :count=>1}]
