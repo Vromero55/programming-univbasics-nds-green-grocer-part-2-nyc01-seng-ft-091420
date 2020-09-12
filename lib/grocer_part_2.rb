@@ -52,6 +52,7 @@ def checkout(cart, coupons)
   cart.each do |item|
     product=item[:price] * item[:count]
     sum=product + sum
+    sum=sum.round(2)
   end
   if sum > 100
     discount=sum * 0.10
