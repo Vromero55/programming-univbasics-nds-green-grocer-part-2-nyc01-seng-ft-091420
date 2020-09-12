@@ -51,7 +51,7 @@ def checkout(cart, coupons)
 binding.pry
   cart.each do |item|
     product=item[:price] * item[:count]
-    while counter <
+
 
 
   # Consult README for inputs and outputs
@@ -63,6 +63,6 @@ binding.pry
   #
   # BEFORE it begins the work of calculating the total (or else you might have
   # some irritated customers
-end
+
 end
 end
