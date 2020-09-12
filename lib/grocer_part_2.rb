@@ -66,12 +66,3 @@ binding.pry
 end
 end
 end
-cartt=[{:item=>"BEETS", :price=>2.5, :clearance=>true, :count=>1},
-  {:item=>"BEETS", :price=>2.5, :clearance=>true, :count=>1},
-  {:item=>"veg", :price=>5.5, :clearance=>true, :count=>1},
-  {:item=>"veg", :price=>5.5, :clearance=>true, :count=>1},
-  {:item=>"carrot", :price=>7.5, :clearance=>true, :count=>1},
-  {:item=>"onion", :price=>11.5, :clearance=>false, :count=>1},
-  {:item=>"onion", :price=>11.5, :clearance=>false, :count=>1},
-  {:item=>"onion", :price=>11.5, :clearance=>false, :count=>1},
-  {:item=>"onion", :price=>11.5, :clearance=>false, :count=>1}]
