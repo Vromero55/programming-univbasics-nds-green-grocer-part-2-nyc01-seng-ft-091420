@@ -65,6 +65,7 @@ binding.pry
   # some irritated customers
 end
 end
+end
 cartt=[{:item=>"BEETS", :price=>2.5, :clearance=>true, :count=>1},
   {:item=>"BEETS", :price=>2.5, :clearance=>true, :count=>1},
   {:item=>"veg", :price=>5.5, :clearance=>true, :count=>1},
